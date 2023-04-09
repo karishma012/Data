@@ -6,11 +6,12 @@ import Table from './components/Table';
 import { Footer } from './components/Footer';
 
 
+
 function App() {
   
   const mystyle={
     width:'100%',
-    height:'200vh',
+    height:'400vh',
     backgroundImage:`url(${image})`,
     
   }
@@ -21,7 +22,11 @@ function App() {
     {/* Your component's content */}
     <Navbar/>
     <Content/>
+    
+    <div className="">
     <Table/>
+    </div>
+    
     <Footer/>
     
   </div>

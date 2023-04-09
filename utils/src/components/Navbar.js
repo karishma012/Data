@@ -3,7 +3,7 @@ export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div className="text-yellow-600 bg-gray-900 fixed w-full ">
+      <div className="text-yellow-600 bg-gray-900  ">
         <div className="py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
           <div className="relative flex items-center justify-between ">
             <a
