@@ -1,3 +1,17 @@
+<BrowserRouter>
+    <Navbar/>
+    <Routes>
+    
+    <Route exact path="/" element={ <Content/>} ></Route>
+    <Route exact path="/About Us" element={ <Content/>} ></Route>
+    <Route exact path="/List" element={ <Table/>} ></Route>
+    <Route exact path="/Contact Us" element={ <Footer/>} ></Route>
+    
+    
+    </Routes>
+    </BrowserRouter>
+
+    import { Link } from 'react-router-dom';
 import { useState } from "react";
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -6,8 +20,8 @@ export const Navbar = () => {
       <div className="text-yellow-600 bg-gray-900  ">
         <div className="py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
           <div className="relative flex items-center justify-between ">
-            <a
-              href="/"
+            <Link
+              to="/"
               aria-label="Company"
               title="Company"
               className="inline-flex items-center"
@@ -27,62 +41,62 @@ export const Navbar = () => {
                 <rect x="14" y="1" width="7" height="6" />
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-gray-500 uppercase ">
-              SkillMatch
+              <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+              Skillset
               </span>
-            </a>
+            </Link>
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   aria-label="Product pricing"
                   title="Product pricing"
                   className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   List
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   aria-label="About us"
                   title="About us"
                   className="font-medium tracking-wide transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a
-                  href="/"
-                  className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                <Link
+                  to="/"
+                  className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                   aria-label="Sign up"
                   title="Sign up"
                 >
                   Log Out
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="lg:hidden">
@@ -112,8 +126,8 @@ export const Navbar = () => {
                   <div className="p-5 bg-white border rounded shadow-sm">
                     <div className="flex items-center justify-between mb-4">
                       <div>
-                        <a
-                          href="/"
+                        <Link
+                          to="/"
                           aria-label="Company"
                           title="Company"
                           className="inline-flex items-center"
@@ -134,9 +148,9 @@ export const Navbar = () => {
                             <rect x="14" y="11" width="7" height="12" />
                           </svg>
                           <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                            SkillMatch
+                            Skillset
                           </span>
-                        </a>
+                        </Link>
                       </div>
                       <div>
                         <button
@@ -157,54 +171,54 @@ export const Navbar = () => {
                     <nav>
                       <ul className="space-y-4">
                         <li>
-                          <a
-                            href="/"
+                          <Link
+                            to="/"
                             aria-label="Our product"
                             title="Our product"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             Home
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="/"
+                          <Link
+                            to="/"
                             aria-label="Our product"
                             title="Our product"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             About Us
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="/"
+                          <Link
+                            to="/"
                             aria-label="Product pricing"
                             title="Product pricing"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             List
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="/"
+                          <Link
+                            to="/"
                             aria-label="About us"
                             title="About us"
                             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
                             Contact Us
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
-                            href="/"
+                          <Link
+                            to="/"
                             className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                             aria-label="Sign up"
                             title="Sign up"
                           >
                             Log Out
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </nav>
@@ -217,3 +231,4 @@ export const Navbar = () => {
       </div>
     );
   };
+  export default Navbar

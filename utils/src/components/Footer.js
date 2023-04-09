@@ -25,24 +25,24 @@ export const Footer = () => {
                 <rect x="14" y="11" width="7" height="12" />
               </svg>
               <span className="ml-2 text-xl font-bold tracking-wide uppercase">
-                Company
+                SkillMatch
               </span>
             </a>
             <div className="mt-4 lg:max-w-sm">
               <p className="text-sm">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+              Our mission is to create a community of tech-savvy students who can collaborate,
+               learn from each other, and inspire one another to achieve their dreams
               </p>
               <p className="mt-4 text-sm">
-                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
+              We believe that everyone should have access to the resources and support they need to succeed
+               in their chosen field, and we strive to provide that support through our platform.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
               <p className="font-semibold tracking-wide">
-                Category
+              Tech stack
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -50,7 +50,7 @@ export const Footer = () => {
                     href="/"
                     className=" transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    News
+                    Student profiles
                   </a>
                 </li>
                 <li>
@@ -58,7 +58,7 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    World
+                    SkillSet
                   </a>
                 </li>
                 <li>
@@ -66,7 +66,7 @@ export const Footer = () => {
                     href="/"
                     className=" transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Games
+                    TalentSearch
                   </a>
                 </li>
                 <li>
@@ -74,14 +74,14 @@ export const Footer = () => {
                     href="/"
                     className="transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    References
+                    Networking
                   </a>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold tracking-wide">
-                Business
+                collaboration
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
@@ -89,7 +89,7 @@ export const Footer = () => {
                     href="/"
                     className=" transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Web
+                    Web Development
                   </a>
                 </li>
                 <li>
@@ -97,7 +97,7 @@ export const Footer = () => {
                     href="/"
                     className=" transition-colors duration hover:text-deep-purple-accent-400"
                   >
-                    eCommerce
+                    Community Building
                   </a>
                 </li>
                 <li>
@@ -105,7 +105,7 @@ export const Footer = () => {
                     href="/"
                     className=" transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Business
+                    Learning Opportunities
                   </a>
                 </li>
                 <li>
@@ -113,7 +113,7 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Entertainment
+                    Mentorship
                   </a>
                 </li>
                 <li>
@@ -121,20 +121,20 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Portfolio
+                    Career Development
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-semibold tracking-wide -800">Apples</p>
+              
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Media
+                    Job Search
                   </a>
                 </li>
                 <li>
@@ -142,7 +142,7 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Brochure
+                    App development
                   </a>
                 </li>
                 <li>
@@ -150,7 +150,7 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Nonprofit
+                    Industry insights
                   </a>
                 </li>
                 <li>
@@ -158,7 +158,7 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Educational
+                    MAchine Learning
                   </a>
                 </li>
                 <li>
@@ -166,20 +166,20 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Projects
+                    Data Science
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-semibold tracking-wide -800">Cherry</p>
+              
               <ul className="mt-2 space-y-2">
                 <li>
                   <a
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Infopreneur
+                    Emerging Technologies
                   </a>
                 </li>
                 <li>
@@ -195,7 +195,7 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Wiki
+                    Professional Development
                   </a>
                 </li>
                 <li>
@@ -203,7 +203,7 @@ export const Footer = () => {
                     href="/"
                     className="-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                   >
-                    Forum
+                    CyberSecurity
                   </a>
                 </li>
               </ul>

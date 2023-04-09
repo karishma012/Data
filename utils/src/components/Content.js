@@ -1,3 +1,4 @@
+import Typed from 'react-typed';
 export const Content = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-yellow-400">
@@ -47,26 +48,25 @@ export const Content = () => {
               </svg>
             </div>
             <div className="max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
-                Let us handle
-                <br className="hidden md:block" />
-                your next{' '}
-                <span className="inline-block text-teal-600">
-                  destination
-                </span>
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none ">
+                    <div className='text-teal-600 animate-pulse'>
+                  <Typed
+                    strings={[' Welcome to SkillMatch']}
+
+                    typeSpeed={40}
+                />
+                </div>
               </h2>
               <p className="text-base md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                 facere, magnam ipsam est amet soluta eveniet ipsum ducimus pariatur
-                  voluptas cupiditate! Minus repudiandae ad quis debitis. Pariatur,
-                   ducimus aliquid voluptas fugiat officiis praesentium. Animi
-                    possimus quam necessitatibus quis suscipit ducimus.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, quia?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aperiam
-                 maiores dolorem dolore nobis, incidunt quaerat voluptate dolores ipsa distinctio.
+              A platform designed to help college students find and connect with other students
+               who share their passion for technology. We understand how important it is for students
+                to find like-minded individuals who can help them learn, grow, and achieve their goals.
+                We understand the challenges that college students face, and we're committed to providing a platform
+                 that can help them overcome those challenges and achieve their goals.
+                 Whether you`re interested in web development, mobile app development, data science, or any other
+                  tech-related field, you can easily find and connect with students who have the skills and experience
+                   you're looking for.
+If you're a college student looking to connect with other tech enthusiasts, SKILLMATCH is the perfect platform for you.
               </p>
             </div>
             <div>
@@ -90,19 +90,19 @@ export const Content = () => {
             <div className="flex flex-col items-end px-3">
               <img
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtip2b33EySjkVoxr5WDXsBIxlkn70hjl26b3soP4gEYWgxTC0sTBbYkdGIIkAWLJo614&usqp=CAU"
                 alt=""
               />
               <img
                 className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="https://www.ellucian.com/sites/default/files/styles/responsive_4_3_l/public/uploads/images/2023/01/blog-image-gone-digital-community-colleges-biggest-opportunities-lie-in-tech.jpg?h=3af4c7d1&itok=qwcs43ca"
                 alt=""
               />
             </div>
             <div className="px-3">
               <img
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                src="https://attachment.eab.com/wp-content/uploads/2019/12/Image-Web-Meeting-laptops-tech-550x550.jpg"
                 alt=""
               />
             </div>

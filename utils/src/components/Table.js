@@ -11,8 +11,8 @@ const DatatablePage = () => {
         width: 150
       },
       {
-        label: 'Position',
-        field: 'position',
+        label: 'TechStack',
+        field: 'TechStack',
         sort: 'asc',
         width: 270
       },
@@ -43,8 +43,8 @@ const DatatablePage = () => {
     ],
     rows: [
       {
-        name: 'Tiger Nixon',
-        position: 'System Architect',
+        name: 'Snigdha',
+        TechStack: 'System ',
         office: 'Edinburgh',
         // age: '61',
         // date: '2011/04/25',
@@ -52,7 +52,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Garrett Winters',
-        position: 'Accountant',
+        TechStack: 'Accountant',
         office: 'Tokyo',
         // age: '63',
         // date: '2011/07/25',
@@ -60,7 +60,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Ashton Cox',
-        position: 'Junior Technical Author',
+        TechStack: 'Junior Technical Author',
         office: 'San Francisco',
         age: '66',
         date: '2009/01/12',
@@ -68,7 +68,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Cedric Kelly',
-        position: 'Senior Javascript Developer',
+        TechStack: 'Senior Javascript Developer',
         office: 'Edinburgh',
         age: '22',
         date: '2012/03/29',
@@ -76,7 +76,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Airi Satou',
-        position: 'Accountant',
+        TechStack: 'Accountant',
         office: 'Tokyo',
         age: '33',
         date: '2008/11/28',
@@ -84,7 +84,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Brielle Williamson',
-        position: 'Integration Specialist',
+        TechStack: 'Integration Specialist',
         office: 'New York',
         age: '61',
         date: '2012/12/02',
@@ -92,7 +92,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Herrod Chandler',
-        position: 'Sales Assistant',
+        TechStack: 'Sales Assistant',
         office: 'San Francisco',
         age: '59',
         date: '2012/08/06',
@@ -100,7 +100,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Rhona Davidson',
-        position: 'Integration Specialist',
+        TechStack: 'Integration Specialist',
         office: 'Tokyo',
         age: '55',
         date: '2010/10/14',
@@ -108,7 +108,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Colleen Hurst',
-        position: 'Javascript Developer',
+        TechStack: 'Javascript Developer',
         office: 'San Francisco',
         age: '39',
         date: '2009/09/15',
@@ -116,7 +116,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Sonya Frost',
-        position: 'Software Engineer',
+        TechStack: 'Software Engineer',
         office: 'Edinburgh',
         age: '23',
         date: '2008/12/13',
@@ -124,7 +124,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Jena Gaines',
-        position: 'Office Manager',
+        TechStack: 'Office Manager',
         office: 'London',
         age: '30',
         date: '2008/12/19',
@@ -132,7 +132,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Quinn Flynn',
-        position: 'Support Lead',
+        TechStack: 'Support Lead',
         office: 'Edinburgh',
         age: '22',
         date: '2013/03/03',
@@ -140,7 +140,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Charde Marshall',
-        position: 'Regional Director',
+        TechStack: 'Regional Director',
         office: 'San Francisco',
         age: '36',
         date: '2008/10/16',
@@ -148,7 +148,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Haley Kennedy',
-        position: 'Senior Marketing Designer',
+        TechStack: 'Senior Marketing Designer',
         office: 'London',
         age: '43',
         date: '2012/12/18',
@@ -156,7 +156,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Tatyana Fitzpatrick',
-        position: 'Regional Director',
+        TechStack: 'Regional Director',
         office: 'London',
         age: '19',
         date: '2010/03/17',
@@ -164,7 +164,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Michael Silva',
-        position: 'Marketing Designer',
+        TechStack: 'Marketing Designer',
         office: 'London',
         age: '66',
         date: '2012/11/27',
@@ -172,7 +172,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Paul Byrd',
-        position: 'Chief Financial Officer (CFO)',
+        TechStack: 'Chief Financial Officer (CFO)',
         office: 'New York',
         age: '64',
         date: '2010/06/09',
@@ -180,7 +180,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Gloria Little',
-        position: 'Systems Administrator',
+        TechStack: 'Systems Administrator',
         office: 'New York',
         age: '59',
         date: '2009/04/10',
@@ -188,7 +188,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Bradley Greer',
-        position: 'Software Engineer',
+        TechStack: 'Software Engineer',
         office: 'London',
         age: '41',
         date: '2012/10/13',
@@ -196,7 +196,7 @@ const DatatablePage = () => {
       },
       {
         name: 'Dai Rios',
-        position: 'Personnel Lead',
+        TechStack: 'Personnel Lead',
         office: 'Edinburgh',
         age: '35',
         date: '2012/09/26',
@@ -204,7 +204,7 @@ const DatatablePage = () => {
       },
     //   {
     //     name: 'Jenette Caldwell',
-    //     position: 'Development Lead',
+    //     TechStack: 'Development Lead',
     //     office: 'New York',
     //     age: '30',
     //     date: '2011/09/03',
@@ -212,7 +212,7 @@ const DatatablePage = () => {
     //   },
     //   {
     //     name: 'Yuri Berry',
-    //     position: 'Chief Marketing Officer (CMO)',
+    //     TechStack: 'Chief Marketing Officer (CMO)',
     //     office: 'New York',
     //     age: '40',
     //     date: '2009/06/25',
@@ -502,7 +502,7 @@ const DatatablePage = () => {
   };
 
   return (
-    <div className="bg-white" style={{border: '20px solid white'}}>
+    <div className="bg-gray-300" style={{border: '20px solid black'}}>
     <MDBDataTable
       striped
       bordered

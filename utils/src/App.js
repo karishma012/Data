@@ -23,7 +23,7 @@ function App() {
     <Navbar/>
     <Content/>
     
-    <div className="">
+    <div className="container">
     <Table/>
     </div>
     
